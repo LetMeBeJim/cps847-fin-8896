@@ -2,17 +2,17 @@
     <p>Next hour</p>
     <div id="w-header">Prediction's timestamp: {{ myTS[0] }}</div>
     <div id="w-condition">Condition: {{ condition[0] }}</div>
-    <div id="w-temperature">Temperature: {{ temperature[0] }}</div>
+    <div id="w-temperature">Temperature: {{ temperature[0] +'C' }}</div>
     <br/>
     <p>One hour later</p>
     <div id="w-header">Prediction's timestamp: {{ myTS[1] }}</div>
     <div id="w-condition">Condition: {{ condition[1] }}</div>
-    <div id="w-temperature">Temperature: {{ temperature[1] }}</div>
+    <div id="w-temperature">Temperature: {{ temperature[1]+'C' }}</div>
     <br/>
     <p>Two hours later</p>
     <div id="w-header">Prediction's timestamp: {{ myTS[2] }}</div>
     <div id="w-condition">Condition: {{ condition[2] }}</div>
-    <div id="w-temperature">Temperature: {{ temperature[2] }}</div>
+    <div id="w-temperature">Temperature: {{ temperature[2]+'C' }}</div>
 
 
   </template>
